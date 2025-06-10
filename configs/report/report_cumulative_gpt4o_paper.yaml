@@ -1,0 +1,14 @@
+method: cumulative
+class: SimpleJsonPrompter
+error_classification_prompt: "prompt_report_cumulative_choosetype.txt"
+error_classification_output_key: "answer"
+error_name_prefix: "type_"
+error_name_key: "error_name"
+error_description_key: "error_description"
+error_type_generation_prompt: "prompt_report_cumulative_newtype.txt"
+error_type_generation_output_key: "answer"
+error_type_regeneration_prompt: "prompt_report_cumulative_regenerate_type_names.txt"
+error_type_regeneration_output_key: "answer"
+generator_type: "openai"
+generator_model_name: "gpt-4o"
+generator_extra_gen_params: "{'response_format': {'type': 'json_object'}}"

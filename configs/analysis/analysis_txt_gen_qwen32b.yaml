@@ -1,0 +1,8 @@
+class: FinalSeparatorTextPrompter
+prompt: gen_txt.txt
+output_key: summary
+final_separator: 'Summary:'
+generator_type: hf
+generator_model_name: Qwen/Qwen2.5-32B-Instruct
+generator_extra_gen_params: '{"max_new_tokens": 1000, "do_sample": False, "return_dict_in_generate": True}'
+no_issue_keyword: "No issue"

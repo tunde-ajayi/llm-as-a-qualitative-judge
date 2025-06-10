@@ -1,0 +1,7 @@
+class: SimpleJsonPrompter
+prompt: "generate_sythetic_data_json.txt"
+output_key: "result"
+generator_type: "openai"
+generator_model_name: "gpt-4o"
+generator_extra_gen_params: "{'response_format': {'type': 'json_object'}}"
+

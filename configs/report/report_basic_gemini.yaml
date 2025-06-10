@@ -1,0 +1,9 @@
+method: simple
+class: SimpleJsonPrompter
+prompt: "prompt_report_basic.txt"
+output_key: "summary"
+generator_type: "gemini"
+generator_model_name: "gemini-2.0-flash"
+generator_extra_gen_params: "{'config': {'response_mime_type': 'application/json',}}"
+error_name_key: "error_name"
+

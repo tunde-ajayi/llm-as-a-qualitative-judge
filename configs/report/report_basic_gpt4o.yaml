@@ -1,0 +1,9 @@
+method: simple
+class: SimpleJsonPrompter
+prompt: "prompt_report_basic.txt"
+output_key: "summary"
+generator_type: "openai"
+generator_model_name: "gpt-4o"
+generator_extra_gen_params: "{'response_format': {'type': 'json_object'}}"
+error_name_key: "error_name"
+

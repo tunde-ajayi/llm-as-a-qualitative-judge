@@ -1,0 +1,7 @@
+class: SimpleJsonPrompter
+prompt: rag_json.txt
+output_key: summary
+generator_type: gemini
+generator_model_name: gemini-2.0-flash
+generator_extra_gen_params: "{'config': {'response_mime_type': 'application/json',}}"
+no_issue_keyword: "No issue"

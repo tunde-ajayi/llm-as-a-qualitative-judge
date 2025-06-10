@@ -1,0 +1,9 @@
+method: simple
+class: SimpleTextPrompter
+prompt: "prompt_report_basic.txt"
+output_key: "summary"
+generator_type: "hf"
+generator_model_name: "Qwen/Qwen2.5-7B-Instruct"
+generator_extra_gen_params: '{"max_new_tokens": 2000, "do_sample": False, "return_dict_in_generate": True}'
+error_name_key: "error_name"
+

@@ -1,0 +1,7 @@
+Situation: You are given two strings, both representing an error type.
+Your task is to determine if two strings denote the same error type.
+
+Expert 1 conclusion: E1
+Expert 2 conclusion: E2
+
+Is it the same error type? Output only one word 'Yes' or 'No'.

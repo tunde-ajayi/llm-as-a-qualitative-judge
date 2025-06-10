@@ -1,0 +1,7 @@
+class: FinalSeparatorTextPrompter
+prompt: rag_txt_paper.txt
+output_key: summary
+final_separator: 'Summary:'
+generator_type: hf
+generator_model_name: meta-llama/Llama-3.1-8B
+generator_extra_gen_params: '{"max_new_tokens": 1000, "do_sample": False, "return_dict_in_generate": True}'

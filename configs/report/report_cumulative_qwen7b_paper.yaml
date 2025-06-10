@@ -1,0 +1,14 @@
+method: cumulative
+error_classification_class: FinalSeparatorTextPrompter
+error_classification_prompt: "prompt_report_cumulative_choosetype_txt.txt"
+error_classification_final_separator: "Decision:"
+error_name_prefix: "type_"
+error_name_key: "error_name"
+error_description_key: "error_description"
+error_type_generation_class: MiddleSeparatorTextPrompter
+error_type_generation_prompt: "prompt_report_cumulative_newtype_txt.txt"
+error_type_generation_separator: ":"
+error_type_generation_keys: ["error_name", "error_description"]
+generator_type: "hf"
+generator_model_name: "Qwen/Qwen2.5-7B-Instruct"
+generator_extra_gen_params: '{"max_new_tokens": 100, "do_sample": False, "return_dict_in_generate": True}'

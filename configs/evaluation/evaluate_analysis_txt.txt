@@ -1,0 +1,8 @@
+Situation: Two experts are inspecting examples in natural language generation for a particular dataset. 
+You will be given 2 sentences, which represent the conclusions of the two experts about the same example, i.e. what is a failure case in the examle they were given.
+Your task is to determine if the experts describe the same failure.
+
+Expert 1 conclusion: E1
+Expert 2 conclusion: E2
+
+Do experts describe the same failure? Output only one word 'Yes' or 'No'.

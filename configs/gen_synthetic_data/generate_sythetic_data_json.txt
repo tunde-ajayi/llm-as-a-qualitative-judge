@@ -1,0 +1,7 @@
+You are an expert in synthetic data generation. You will be given an ERROR TYPE in retrieval-augmented generation, and your task is to imagine MANY WAYS how this error type can be phrased. More specifically, your task it to rephrase the given error type N times in a very creative way so that each reformulation keeps the original meaning of the error type, but all the reformulations are maximally different.
+
+Error type: EEE
+
+N = how many reformulations are needed: NNN
+
+Generate N reformulations. Generate a json with a key "result" and a value being a dictionary containing N items, with values being the generated reformulations.

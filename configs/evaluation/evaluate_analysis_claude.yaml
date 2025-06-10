@@ -1,0 +1,5 @@
+class: SimpleTextPrompter
+prompt: "evaluate_analysis_txt.txt"
+generator_type: "claude"
+generator_model_name: "claude-3-7-sonnet-20250219"
+generator_extra_gen_params: "{'max_tokens':1}"
