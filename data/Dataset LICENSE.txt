@@ -1,0 +1,20 @@
+LLM-as-a-qualitative-judge Annotations, Copyright (c) 2025 University of Galway, University of Amsterdam, Copenhagen University, Technische Universität Berlin, Université Grenoble Alpes, Télécom Paris, Naver Corporation
+
+The dataset includes samples from the 13 datasets and the manual annotation of what is the particular error in each example. The samples from the 13 datasets were made available under the following terms [license name: pointer to license], which as applicable apply to the use of their corresponding annotations (i.e., any use of annotations are subject to the terms and conditions of the corresponding dataset license):
+
+Self-instruct dataset, https://huggingface.co/datasets/yizhongw/self_instruct, [Apache license 2.0: https://choosealicense.com/licenses/apache-2.0/]
+WizardLM, https://huggingface.co/datasets/WizardLMTeam/WizardLM_evol_instruct_70k, [MIT license: https://choosealicense.com/licenses/mit/]
+Koala dataset, https://github.com/arnav-gudibande/koala-test-set/tree/main, [Apache license 2.0: https://github.com/arnav-gudibande/koala-test-set/tree/main?tab=Apache-2.0-1-ov-file#readme]
+CommonSense QA, https://huggingface.co/datasets/tasksource/commonsense_qa_2.0, [CC-BY 4.0: https://choosealicense.com/licenses/cc-by-4.0/]
+WMT 2022 en-ru, https://github.com/google/wmt-mqm-human-evaluation/tree/main, [Apache license 2.0: https://github.com/google/wmt-mqm-human-evaluation/blob/main/LICENSE] 
+ELITR-Bench, https://github.com/utter-project/ELITR-Bench/tree/main, [CC-BY 4.0: https://github.com/utter-project/ELITR-Bench/blob/main/LICENSE-DATA.txt] 
+PIZZA dataset, https://github.com/amazon-science/pizza-semantic-parsing-dataset, [CC-BY-NC 4.0 International: https://github.com/amazon-science/pizza-semantic-parsing-dataset/blob/main/LICENSE]
+GSM8K dataset, https://huggingface.co/datasets/openai/gsm8k, [MIT license: https://choosealicense.com/licenses/mit/]
+MKQA, https://huggingface.co/datasets/apple/mkqa, [CC-BY 3.0: https://spdx.org/licenses/CC-BY-3.0] 
+BioASQ, https://participants-area.bioasq.org/datasets/, [CC-BY 2.5: https://creativecommons.org/licenses/by/2.5/]
+RobustQA, https://github.com/awslabs/robustqa-acl23, [Apache license 2.0] 
+SyllabusQA, https://github.com/umass-ml4ed/syllabusqa, [CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/ (specified in https://aclanthology.org/2024.acl-long.557/)] 
+SearchQA, https://github.com/nyu-dl/dl4ir-searchQA, [BSD 3-Clause License: https://github.com/nyu-dl/dl4ir-searchQA/blob/master/LICENSE]
+MultiDetox, https://huggingface.co/datasets/textdetox/multilingual_toxicity_dataset, [OpenRAIL++-M license: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md] 
+
+
