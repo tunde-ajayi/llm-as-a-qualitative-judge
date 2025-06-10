@@ -50,7 +50,7 @@ _Step 1:_ save you data into a json file with the following schema:
 ]
 ```
 
-See an example in [data/writing.json]()
+See an example in [data/writing.json](https://github.com/tunde-ajayi/llm-as-a-qualitative-judge/blob/main/data/writing.json)
 
 _Step 2:_
 ```
@@ -61,8 +61,8 @@ __Input data:__ our recommendation is to provide _LLM-as-a-qualitative-judge_ wi
 
 ### More options for LLM-as-a-qualitative-judge
 
-* `analyser_config=` / `--analyser_config=` : a config for per-instance analysis from [configs/analysys]() (specifies which LLM / prompt to use). You can add your prompts/LLMs!
-* `clustering_config=` / `--clustering_config=` : a config for clustering errors from [configs/report]() (specifies which LLM / prompts to use). For example, you can try both `report_cumulative_gpt4o.yaml` (default) and `report_basic_gpt4o.yaml`.
+* `analyser_config=` / `--analyser_config=` : a config for per-instance analysis from [configs/analysys](https://github.com/tunde-ajayi/llm-as-a-qualitative-judge/tree/main/configs/analysis) (specifies which LLM / prompt to use). You can add your prompts/LLMs!
+* `clustering_config=` / `--clustering_config=` : a config for clustering errors from [configs/report](https://github.com/tunde-ajayi/llm-as-a-qualitative-judge/tree/main/configs/report) (specifies which LLM / prompts to use). For example, you can try both `report_cumulative_gpt4o.yaml` (default) and `report_basic_gpt4o.yaml`.
 * `top_n_examples=` / `--top_n_examples=` : if provided, only the first `top_n_examples` will be used in generating the error report
 * `additional_task_info=` / field `additional_task_info` in each dictionary in the data json: a string providing more details on the task, e.g. the used evaluation metric, whether ground truth labels represent the only possible answer or just an example of an answer, etc. If provided, this string will be included into the prompt for per-instance analysis.
 
@@ -70,7 +70,7 @@ __Input data:__ our recommendation is to provide _LLM-as-a-qualitative-judge_ wi
 
 ### Data
 
-As descriped in the [paper](), to evaluate _LLM-as-a-qualitative-judge_, we annotate errors (and their clustering) for ~300 instances from 12 NLG datasets. We provide the data in a zip archive protected with a password "judge", to avoid [potential contamination](https://arxiv.org/abs/2310.18018) of LLMs trained on web scrapped data. To unzip the archive, run `cd data; unzip eval_data.zip` and indicate `judge` as password.
+As descriped in the [paper](), to evaluate _LLM-as-a-qualitative-judge_, we annotate errors (and their clustering) for ~300 instances from 12 NLG datasets. We provide the [data](https://github.com/tunde-ajayi/llm-as-a-qualitative-judge/blob/main/data/eval_data.zip) in a zip archive protected with a password "judge", to avoid [potential contamination](https://arxiv.org/abs/2310.18018) of LLMs trained on web scrapped data. To unzip the archive, run `cd data; unzip eval_data.zip` and indicate `judge` as password.
 
 ### Code
 
@@ -107,7 +107,7 @@ You can also experiment with synthetic data, see script `gen_synthetic_clusterin
 
 ### Archive with our results
 
-We also provide a zip archive `results.zip` with our results for the 12 datasets. Again, it is protected with password `judge`.
+We also provide a zip archive [data/experiments_data.zip](https://github.com/tunde-ajayi/llm-as-a-qualitative-judge/blob/main/data/experiments_data.zip) with our results for the 12 datasets. Again, it is protected with password `judge`.
 
 ## Repository structure
 
