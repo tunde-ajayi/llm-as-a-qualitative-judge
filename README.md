@@ -2,10 +2,7 @@
 
 In [this work](), we present _LLM-as-a-qualitative-judge_, an LLM-based evaluation approach which outputs a _structured report of the common error types_ for a given natural language generation dataset. _LLM-as-a-qualitative-judge_ first analyses each instance individually, and then clusters the discovered error types -- both steps are performed using an LLM. The main goal of _LLM-as-a-qualitative-judge_ is to automate error analysis in natural language generation and provide developers with insights on the weak sides of NLG systems. 
 
-This codebase provides functionality to easily run _LLM-as-a-qualitative-judge_ on your data, as well as code&data for reproducing the experiments in our [paper](https://arxiv.org/abs/2506.09147).
-
-Citation:
-TODO
+This codebase provides functionality to easily run _LLM-as-a-qualitative-judge_ on your data, as well as code&data for reproducing the experiments in our [paper]().
 
 ## Setup
 The library uses `ruamel.yaml` to parse evaluation configs:
@@ -118,3 +115,19 @@ We also provide a zip archive [data/experiments_data.zip](https://github.com/tun
     * `utils.py`: utils
     * `instruction_processors.py`: these are functions which can be used to extract additional fields from the `llm_instruction` provided in the json data, to be inserted into the prompt for per-instance analysis. In our experiments, we use it to extract retrieved documents.
 * `Configs`: configurations for per-instance analysis (`configs/analysis`), error clustering (`configs/report`), evaluation of per-instance analsis or natural language labels in error clustering (`configs/evaluation`) etc. Each configuration specifies an LLM, its settings, and prompt(s).
+
+## Citation
+
+If you found our code useful, please cite:
+```
+@misc{chirkova2025llmasaqualitativejudge,
+      title={LLM-as-a-qualitative-judge: automating error analysis in natural language generation}, 
+      author={Nadezhda Chirkova and Tunde Oluwaseyi Ajayi and Seth Aycock and Zain Muhammad Mujahid and Vladana Perlić and Ekaterina Borisova and Markarit Vartampetian},
+      year={2025},
+      eprint={2506.09147},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.09147}, 
+}
+```
+
