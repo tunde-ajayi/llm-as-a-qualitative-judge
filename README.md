@@ -2,7 +2,7 @@
 
 In [this work](), we present _LLM-as-a-qualitative-judge_, an LLM-based evaluation approach which outputs a _structured report of the common error types_ for a given natural language generation dataset. _LLM-as-a-qualitative-judge_ first analyses each instance individually, and then clusters the discovered error types -- both steps are performed using an LLM. The main goal of _LLM-as-a-qualitative-judge_ is to automate error analysis in natural language generation and provide developers with insights on the weak sides of NLG systems. 
 
-This codebase provides functionality to easily run _LLM-as-a-qualitative-judge_ on your data, as well as code&data for reproducing the experiments in our [paper]().
+This codebase provides functionality to easily run _LLM-as-a-qualitative-judge_ on your data, as well as code&data for reproducing the experiments in our [paper](https://arxiv.org/abs/2506.09147).
 
 Citation:
 TODO
