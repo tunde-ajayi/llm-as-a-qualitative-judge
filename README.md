@@ -29,7 +29,7 @@ from llm_as_a_qualitative_judge import generate_issue_report
 report = generate_issue_report(user_inputs, labels, generated_responses)
 ```
 
-Each argument is a list of strings (all of the same length). The function outputs a dictionary with common error types, their descriptions and frequencies. Be default, the script uses OpenAI `gpt4o` model (see below how to change configs to use other models).
+Each argument is a list of strings (all of the same length). The function outputs a dictionary with common error types, their descriptions and frequencies. By default, the script uses OpenAI `gpt4o` model (see below how to change configs to use other models).
 
 In command line: 
 
