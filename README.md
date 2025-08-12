@@ -116,7 +116,7 @@ We also provide a zip archive [data/experiments_data.zip](https://github.com/tun
     * `prompting_approaches.py`: implements prompting with json / text outputs and they postprocessing, e.g. extracting keys / final answers after a separator.
     * `utils.py`: utils
     * `instruction_processors.py`: these are functions which can be used to extract additional fields from the `llm_instruction` provided in the json data, to be inserted into the prompt for per-instance analysis. In our experiments, we use it to extract retrieved documents.
-* `Configs`: configurations for per-instance analysis (`configs/analysis`), error clustering (`configs/report`), evaluation of per-instance analsis or natural language labels in error clustering (`configs/evaluation`) etc. Each configuration specifies an LLM, its settings, and prompt(s).
+* `Configs`: configurations for per-instance analysis (`configs/analysis`), error clustering (`configs/report`), evaluation of per-instance analysis or natural language labels in error clustering (`configs/evaluation`) etc. Each configuration specifies an LLM, its settings, and prompt(s).
 
 ## Citation
 
