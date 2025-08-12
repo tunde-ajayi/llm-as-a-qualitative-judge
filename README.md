@@ -69,7 +69,7 @@ __Input data:__ our recommendation is to provide _LLM-as-a-qualitative-judge_ wi
 
 ### Data
 
-As descriped in the [paper](), to evaluate _LLM-as-a-qualitative-judge_, we annotate errors (and their clustering) for ~300 instances from 12 NLG datasets. We provide the [data](https://github.com/tunde-ajayi/llm-as-a-qualitative-judge/blob/main/data/eval_data.zip) in a zip archive protected with a password "judge", to avoid [potential contamination](https://arxiv.org/abs/2310.18018) of LLMs trained on web scrapped data. To unzip the archive, run `cd data; unzip eval_data.zip` and indicate `judge` as password.
+As descriped in the [paper](), to evaluate _LLM-as-a-qualitative-judge_, we annotate errors (and their clustering) for ~300 instances from 12 NLG datasets. We provide the [data](https://github.com/tunde-ajayi/llm-as-a-qualitative-judge/blob/main/data/eval_data.zip) in a zip archive protected with a password "judge", to avoid [potential contamination](https://aclanthology.org/2023.findings-emnlp.722.pdf) of LLMs trained on web scrapped data. To unzip the archive, run `cd data; unzip eval_data.zip` and indicate `judge` as password.
 
 ### Code
 
